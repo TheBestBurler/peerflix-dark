@@ -8,13 +8,14 @@ peerflix-server
 
 <img src="https://cdn.rawgit.com/asapach/peerflix-server/master/app/images/logo.svg" alt="logo" height="256">
 
-Streaming torrent client for node.js with web ui.
+A dark mod of peerflix-server, a Streaming torrent client for node.js with web ui.
+Nothing special here, just an edited version of the css, thats pretty much all.
 
-![screen capture](https://cdn.rawgit.com/asapach/peerflix-server/master/capture.gif)
+![screen capture](https://i.imgur.com/FbZkp7z.png)
 
 Based on [torrent-stream](https://github.com/mafintosh/torrent-stream), inspired by [peerflix](https://github.com/mafintosh/peerflix).
 
-## Usage
+## Usage (needs to be updated, this will get the original version)
 
 1. `npm install -g peerflix-server`
 1. `peerflix-server`
