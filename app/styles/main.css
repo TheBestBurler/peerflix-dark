@@ -16,7 +16,7 @@ body {
 
 /* Custom page header */
 .header {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #2E2E31;
 }
 /* Make the masthead heading the same height as the navigation */
 .header h3 {
@@ -37,11 +37,15 @@ body {
 .jumbotron {
   text-align: center;
   border-bottom: 1px solid #e5e5e5;
+    background-color: #2E2E31;
+    color: #848484;
+    border: 1px solid #434346;
 }
 .jumbotron p {
   margin: 15px 0 -30px;
   font-size: 12px;
   font-weight: normal;
+    color: #848484;
 }
 .jumbotron .btn-link {
   cursor: pointer;
@@ -87,16 +91,13 @@ body {
     padding-left: 0;
     padding-right: 0;
           color: #E4E4E4;
-      border-top: 1px solid #2E2E31;
   }
   .container {
     max-width: 730px;
-          background-color: #2E2E31;
   }
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
-      border-bottom: 1px solid #2E2E31;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
@@ -106,8 +107,6 @@ body {
   .jumbotron .btn {
     font-size: 21px;
     padding: 14px 24px;
-      background-color: #3C3F41;
-      border: 1px solid #484848;
   }
 }
 
@@ -120,6 +119,20 @@ color: #71A3CE;
     color: #E4E4E4;
 }
 
+.footer {
+    border-top: 1px solid #2E2E31;
+}
+
+.form-control {
+    color: #555;
+    background-color: #3C3F41;
+    border: 1px solid #45484A;
+}
+
+.form-control ng-valid{
+color: #8C8C8C;
+}
+
 .input-group-addon {
     color: #E4E4E4;
     background-color: #337AB7;
@@ -130,6 +143,22 @@ color: #71A3CE;
 .panel {
     background-color: #2E2E31;
 }
+
+.panel-success {
+    border-color: #5CB85C;
+}
+
+.panel-success>.panel-heading {
+    color: #E4E4E4;
+    background-color: rgb(92, 184, 92);
+    border-color: #5CB85C;
+}
+
+
+.progress {
+    background-color: #515658;
+}
+
 
 .list-group-item {
  background-color: #2E2E31;
