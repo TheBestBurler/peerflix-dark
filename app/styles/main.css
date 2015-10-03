@@ -2,6 +2,8 @@
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+        background-color: #3c3f41;
+        color: #848484;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -84,20 +86,64 @@ body {
   .footer {
     padding-left: 0;
     padding-right: 0;
+          color: #E4E4E4;
+      border-top: 1px solid #2E2E31;
   }
   .container {
     max-width: 730px;
+          background-color: #2E2E31;
   }
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
+      border-bottom: 1px solid #2E2E31;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+        color: #E4E4E4;
   }
   .jumbotron .btn {
     font-size: 21px;
     padding: 14px 24px;
+      background-color: #3C3F41;
+      border: 1px solid #484848;
   }
+}
+
+/*added stuff below*/
+a{
+color: #71A3CE;
+}
+
+.text-muted{
+    color: #E4E4E4;
+}
+
+.input-group-addon {
+    color: #E4E4E4;
+    background-color: #337AB7;
+    border: 1px solid #347EBD;
+    border-radius: 4px;
+}
+
+.panel {
+    background-color: #2E2E31;
+}
+
+.list-group-item {
+ background-color: #2E2E31;
+ border:1px solid #3C3F41;
+}
+
+.panel-footer {
+    background-color: #2E2E31;
+    border-top: 1px solid #3C3F41;
+    color: #E4E4E4;
+}
+
+.alert-info {
+    color: rgba(198, 220, 239, 0.7);
+    background-color: rgb(97, 123, 146);
+    border-color: #4486BF;
 }
